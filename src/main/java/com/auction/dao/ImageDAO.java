@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
- * Created by lb on 2014/8/24.
+ * Created by loovis on 2014/8/24.
  */
 @Repository
 public class ImageDAO extends BaseDAO<Image> {

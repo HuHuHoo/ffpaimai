@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
- * Created by lb on 2014/8/24.
+ * Created by loovis on 2014/8/24.
  */
 @Controller
 @RequestMapping(value = "/bo/homeImage")

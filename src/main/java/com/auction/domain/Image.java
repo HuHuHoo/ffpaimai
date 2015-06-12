@@ -5,7 +5,7 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 /**
- * Created by lb on 2014/8/24.
+ * Created by loovis on 2014/8/24.
  */
 
 @Entity
