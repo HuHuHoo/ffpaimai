@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+	<preConditions>
+		<dbms type="postgresql" />
+	</preConditions>
+	<changeSet id="create.table" author="lb">
+		<createTable tableName="GOODS">
+			<column name="ID" type="bigint">
+				<constraints primaryKey="true" nullable="false" />
+			</column>
+            <column name="TYPE" type="VARCHAR(128)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="NAME" type="VARCHAR(128)">
+				<constraints  nullable="false" />
+			</column>
+            <column name="PRICE" type="VARCHAR(128)">
+                <constraints nullable="true" />
+            </column>
+            <column name="TRADE_DATE" type="VARCHAR(256)">
+				<constraints nullable="true" />
+			</column>
+            <column name="STATE" type="VARCHAR(128)">
+                <constraints nullable="true" />
+            </column>
+            <column name="IMAGE" type="VARCHAR(128)">
+                <constraints nullable="true" />
+            </column>
+            <column name="DETAIL" type="VARCHAR(128000)">
+                <constraints nullable="true" />
+            </column>
+            <column name="STATUS" type="int" defaultValue="1">
+				<constraints nullable="true" />
+			</column>
+		</createTable>
+	</changeSet>
+
+</databaseChangeLog>

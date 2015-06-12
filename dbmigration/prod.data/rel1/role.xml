@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+	<preConditions>
+		<dbms type="postgresql" />
+	</preConditions>
+	<changeSet id="create.table" author="lb">
+		<createTable tableName="ROLE">
+			<column name="ID" type="bigint">
+				<constraints primaryKey="true" nullable="false" />
+			</column>
+			<column name="NAME" type="VARCHAR(64)">
+				<constraints nullable="false" />
+			</column>
+		</createTable>
+	</changeSet>
+	<changeSet id="prod.data" author="lb">
+		<insert tableName="ROLE">
+			<column name="ID" value="0" />
+			<column name="NAME" value="ROLE_USER" />
+		</insert>
+		<insert tableName="ROLE">
+			<column name="ID" value="1" />
+			<column name="NAME" value="ROLE_ADMIN" />
+		</insert>
+		<insert tableName="ROLE">
+			<column name="ID" value="2" />
+			<column name="NAME" value="ROLE_STORE" />
+		</insert>
+	</changeSet>
+</databaseChangeLog>

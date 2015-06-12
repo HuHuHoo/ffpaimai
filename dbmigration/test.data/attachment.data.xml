@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+	<preConditions>
+		<dbms type="postgresql" />
+	</preConditions>
+	<changeSet id="test.data" author="lb">
+		<insert tableName="ATTACHMENT">
+			<column name="ID" value="1" />
+			<column name="NAME" value="bootstrap-mdo-sfmoma-01.jpg" />
+			<column name="URL" value="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-01.jpg" />
+			<column name="ENTITY_ID" value="1" />
+			<column name="TYPE" value="IMG" />
+		</insert>
+		<insert tableName="ATTACHMENT">
+			<column name="ID" value="2" />
+			<column name="NAME" value="bootstrap-mdo-sfmoma-02.jpg" />
+			<column name="URL" value="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-02.jpg" />
+			<column name="ENTITY_ID" value="1" />
+			<column name="TYPE" value="IMG" />
+		</insert>
+		<insert tableName="ATTACHMENT">
+			<column name="ID" value="3" />
+			<column name="NAME" value="bootstrap-mdo-sfmoma-03.jpg" />
+			<column name="URL" value="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-03.jpg" />
+			<column name="ENTITY_ID" value="1" />
+			<column name="TYPE" value="IMG" />
+		</insert>
+		<insert tableName="ATTACHMENT">
+			<column name="ID" value="4" />
+			<column name="NAME" value="bootstrap-mdo-sfmoma-01.jpg" />
+			<column name="URL" value="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-01.jpg" />
+			<column name="ENTITY_ID" value="2" />
+			<column name="TYPE" value="IMG" />
+		</insert>
+		<insert tableName="ATTACHMENT">
+			<column name="ID" value="5" />
+			<column name="NAME" value="bootstrap-mdo-sfmoma-02.jpg" />
+			<column name="URL" value="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-02.jpg" />
+			<column name="ENTITY_ID" value="2" />
+			<column name="TYPE" value="IMG" />
+		</insert>
+		<insert tableName="ATTACHMENT">
+			<column name="ID" value="6" />
+			<column name="NAME" value="bootstrap-mdo-sfmoma-03.jpg" />
+			<column name="URL" value="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-03.jpg" />
+			<column name="ENTITY_ID" value="2" />
+			<column name="TYPE" value="IMG" />
+		</insert>
+	</changeSet>
+</databaseChangeLog>
