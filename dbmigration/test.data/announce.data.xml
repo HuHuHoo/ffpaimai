@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+	<preConditions>
+		<dbms type="postgresql" />
+	</preConditions>
+	<changeSet id="test.data" author="lb">
+		<insert tableName="ANNOUNCE">
+			<column name="ID" value="1" />
+			<column name="NAME" value="拍品名称1" />
+			<column name="LOCATION" value="拍卖地点" />
+			<column name="TRADE_DATE" value="2014年10月10日下午五点" />
+			<column name="SUMMARY" value="SUMMARY" />
+            <column name="DETAIL" value="详情"/>
+            <column name="RECOMMEND" value="0"/>
+            <column name="FRESH" value="1"/>
+            <column name="STATUS" value="1"/>
+		</insert>
+        <insert tableName="ANNOUNCE">
+			<column name="ID" value="2" />
+			<column name="NAME" value="拍品名称2" />
+			<column name="LOCATION" value="拍卖地点" />
+			<column name="TRADE_DATE" value="2014年10月10日下午五点" />
+			<column name="SUMMARY" value="SUMMARY" />
+            <column name="DETAIL" value="详情"/>
+            <column name="RECOMMEND" value="1"/>
+            <column name="FRESH" value="1"/>
+            <column name="STATUS" value="1"/>
+		</insert>
+        <insert tableName="ANNOUNCE">
+            <column name="ID" value="3" />
+            <column name="NAME" value="拍品名称3" />
+            <column name="LOCATION" value="拍卖地点" />
+            <column name="TRADE_DATE" value="2014年10月10日下午五点" />
+            <column name="SUMMARY" value="SUMMARY" />
+            <column name="DETAIL" value="详情"/>
+            <column name="RECOMMEND" value="1"/>
+            <column name="FRESH" value="0"/>
+            <column name="STATUS" value="1"/>
+        </insert>
+        <insert tableName="ANNOUNCE">
+            <column name="ID" value="4" />
+            <column name="NAME" value="拍品名称4" />
+            <column name="LOCATION" value="拍卖地点" />
+            <column name="TRADE_DATE" value="2014年10月10日下午五点" />
+            <column name="SUMMARY" value="SUMMARY" />
+            <column name="DETAIL" value="详情"/>
+            <column name="RECOMMEND" value="1"/>
+            <column name="FRESH" value="0"/>
+            <column name="STATUS" value="1"/>
+        </insert>
+        <insert tableName="ANNOUNCE">
+            <column name="ID" value="5" />
+            <column name="NAME" value="拍品名称5" />
+            <column name="LOCATION" value="拍卖地点" />
+            <column name="TRADE_DATE" value="2014年10月10日下午五点" />
+            <column name="SUMMARY" value="SUMMARY" />
+            <column name="DETAIL" value="详情"/>
+            <column name="RECOMMEND" value="1"/>
+            <column name="FRESH" value="0"/>
+            <column name="STATUS" value="1"/>
+        </insert>
+        <insert tableName="ANNOUNCE">
+            <column name="ID" value="6" />
+            <column name="NAME" value="拍品名称6" />
+            <column name="LOCATION" value="拍卖地点" />
+            <column name="TRADE_DATE" value="2014年10月10日下午五点" />
+            <column name="SUMMARY" value="SUMMARY" />
+            <column name="DETAIL" value="详情"/>
+            <column name="RECOMMEND" value="1"/>
+            <column name="FRESH" value="0"/>
+            <column name="STATUS" value="1"/>
+        </insert>
+
+	</changeSet>
+</databaseChangeLog>

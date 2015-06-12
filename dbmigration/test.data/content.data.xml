@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+	<preConditions>
+		<dbms type="postgresql" />
+	</preConditions>
+	<changeSet id="test.data" author="lb">
+		<insert tableName="CONTENT">
+			<column name="ID" value="1" />
+			<column name="NAME" value="NAME" />
+			<column name="TYPE" value="about" />
+			<column name="OPERATE_DATE" value="now" />
+            <column name="SUMMARY" value="摘要" />
+            <column name="DETAIL" value="详情" />
+		</insert>
+        <insert tableName="CONTENT">
+			<column name="ID" value="2" />
+			<column name="NAME" value="NAME1" />
+			<column name="TYPE" value="news" />
+			<column name="OPERATE_DATE" value="now" />
+            <column name="SUMMARY" value="摘要" />
+            <column name="DETAIL" value="详情" />
+		</insert>
+        <insert tableName="CONTENT">
+			<column name="ID" value="3" />
+			<column name="NAME" value="NAME2" />
+			<column name="TYPE" value="news" />
+			<column name="OPERATE_DATE" value="now" />
+            <column name="SUMMARY" value="摘要" />
+            <column name="DETAIL" value="详情" />
+		</insert>
+        <insert tableName="CONTENT">
+			<column name="ID" value="4" />
+			<column name="NAME" value="NAME3" />
+			<column name="TYPE" value="news" />
+			<column name="OPERATE_DATE" value="now" />
+            <column name="SUMMARY" value="摘要" />
+            <column name="DETAIL" value="详情" />
+		</insert>
+        <insert tableName="CONTENT">
+			<column name="ID" value="5" />
+			<column name="NAME" value="NAME4" />
+			<column name="TYPE" value="news" />
+			<column name="OPERATE_DATE" value="now" />
+            <column name="SUMMARY" value="摘要" />
+            <column name="DETAIL" value="详情" />
+		</insert>
+        <insert tableName="CONTENT">
+			<column name="ID" value="6" />
+			<column name="NAME" value="NAME5" />
+			<column name="TYPE" value="news" />
+			<column name="OPERATE_DATE" value="now" />
+            <column name="SUMMARY" value="摘要" />
+            <column name="DETAIL" value="详情" />
+		</insert>
+        <insert tableName="CONTENT">
+			<column name="ID" value="7" />
+			<column name="NAME" value="NAME7" />
+			<column name="TYPE" value="classic" />
+			<column name="OPERATE_DATE" value="now" />
+            <column name="SUMMARY" value="摘要" />
+            <column name="DETAIL" value="详情" />
+		</insert>   <insert tableName="CONTENT">
+			<column name="ID" value="8" />
+			<column name="NAME" value="NAME8" />
+			<column name="TYPE" value="classic" />
+			<column name="OPERATE_DATE" value="now" />
+            <column name="SUMMARY" value="摘要" />
+            <column name="DETAIL" value="详情" />
+		</insert>
+        <insert tableName="CONTENT">
+			<column name="ID" value="9" />
+			<column name="NAME" value="NAME9" />
+			<column name="TYPE" value="tend" />
+			<column name="OPERATE_DATE" value="now" />
+            <column name="SUMMARY" value="摘要" />
+            <column name="DETAIL" value="详情" />
+		</insert>
+        <insert tableName="CONTENT">
+			<column name="ID" value="10" />
+			<column name="NAME" value="NAME10" />
+			<column name="TYPE" value="tend" />
+			<column name="OPERATE_DATE" value="now" />
+            <column name="SUMMARY" value="摘要" />
+            <column name="DETAIL" value="详情" />
+		</insert>
+	</changeSet>
+</databaseChangeLog>

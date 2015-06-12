@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+    <preConditions>
+        <dbms type="postgresql"/>
+    </preConditions>
+    <changeSet id="create.table" author="lb">
+        <createTable tableName="DISPOSITION">
+            <column name="ID" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="NAME" type="VARCHAR(20480)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="CONTACT" type="VARCHAR(20480)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="SEX" type="VARCHAR(20480)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="TEL" type="VARCHAR(20480)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="EMAIL" type="VARCHAR(20480)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="ADDRESS" type="VARCHAR(20480)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="OTHER" type="VARCHAR(20480)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="STATUS" type="int">
+                <constraints nullable="true"/>
+            </column>
+            <column name="RESULT" type="VARCHAR(20480)">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+	<preConditions>
+		<dbms type="postgresql" />
+	</preConditions>
+	<changeSet id="create.table" author="lb">
+		<createTable tableName="USERS">
+			<column name="ID" type="bigint">
+				<constraints primaryKey="true" nullable="false" />
+			</column>
+			<column name="NAME" type="VARCHAR(64)">
+				<constraints unique="true" nullable="false" />
+			</column>
+			<column name="REAL_NAME" type="VARCHAR(128)">
+				<constraints nullable="false" />
+			</column>
+			<column name="PASSWORD" type="VARCHAR(64)">
+				<constraints nullable="true" />
+			</column>
+			<column name="EMAIL" type="VARCHAR(64)">
+				<constraints unique="true" nullable="false" />
+			</column>
+			<column name="STATUS" type="int" defaultValue="1">
+				<constraints nullable="false" />
+			</column>
+		</createTable>
+	</changeSet>
+	
+</databaseChangeLog>

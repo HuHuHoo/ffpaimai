@@ -1,0 +1,7 @@
+.validate-error .validate-valid{
+	font-size: 18px;
+}
+select[name=maxRows]{
+	width: 80px;
+	
+}
