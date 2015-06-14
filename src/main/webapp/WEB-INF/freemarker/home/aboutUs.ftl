@@ -63,20 +63,21 @@
         <ul id="locE" class="loc">
             <div class="honour">
                 <h2>荣誉室大事记 </h2>
-                <span class="s_1"><img src="${ctx}/static/images/1.jpg" tppabs="${ctx}/static/images/1.jpg"></span><span
-                    class="s_1"><img src="${ctx}/static/images/2.jpg" tppabs="${ctx}/static/images/2.jpg"></span><span
-                    class="s_1"><img src="${ctx}/static/images/3.jpg" tppabs="${ctx}/static/images/3.jpg"></span><img
-                    src="${ctx}/static/images/4.JPG" tppabs="${ctx}/static/images/4.JPG"><img
-                    src="${ctx}/static/images/5.JPG" tppabs="${ctx}/static/images/5.JPG"><span class="s_1"><img
-                    src="${ctx}/static/images/6.jpg" tppabs="${ctx}/static/images/6.jpg"></span><span class="s_1"><img
-                    src="${ctx}/static/images/7.jpg" tppabs="${ctx}/static/images/7.jpg"></span><span class="s_1"><img
-                    src="${ctx}/static/images/8.jpg" tppabs="${ctx}/static/images/8.jpg"></span><img
-                    src="${ctx}/static/images/9.jpg" tppabs="${ctx}/static/images/9.jpg"><img
-                    src="${ctx}/static/images/10.jpg" tppabs="${ctx}/static/images/10.jpg"><img
-                    src="${ctx}/static/images/11.JPG" tppabs="${ctx}/static/images/11.JPG"><img
-                    src="${ctx}/static/images/12.JPG" tppabs="${ctx}/static/images/12.JPG"><img
-                    src="${ctx}/static/images/13.JPG" tppabs="${ctx}/static/images/13.JPG"><img
-                    src="${ctx}/static/images/14.JPG" tppabs="${ctx}/static/images/14.JPG"></div>
+                <span class="s_1"><img src="${ctx}/static/images/1.png" tppabs="${ctx}/static/images/1.png"></span><span
+                    class="s_1"><img src="${ctx}/static/images/2.png" tppabs="${ctx}/static/images/2.png"></span><span
+                    class="s_1"><img src="${ctx}/static/images/3.png" tppabs="${ctx}/static/images/3.png"></span><img
+                    src="${ctx}/static/images/4.png" tppabs="${ctx}/static/images/4.png"><img
+                    src="${ctx}/static/images/5.png" tppabs="${ctx}/static/images/5.png"><span class="s_1"><img
+                    src="${ctx}/static/images/6.png" tppabs="${ctx}/static/images/6.png"></span><span class="s_1"><img
+                    src="${ctx}/static/images/7.png" tppabs="${ctx}/static/images/7.png"></span><span class="s_1"><img
+                    src="${ctx}/static/images/8.png" tppabs="${ctx}/static/images/8.png"></span><img
+                    src="${ctx}/static/images/9.png" tppabs="${ctx}/static/images/9.png"><img
+                    src="${ctx}/static/images/10.png" tppabs="${ctx}/static/images/10.png"><img
+                    src="${ctx}/static/images/11.png" tppabs="${ctx}/static/images/11.png"><img
+                    src="${ctx}/static/images/12.png" tppabs="${ctx}/static/images/12.png"><img
+                    src="${ctx}/static/images/13.png" tppabs="${ctx}/static/images/13.png">
+                <img src="${ctx}/static/images/14.png" tppabs="${ctx}/static/images/14.png">
+                <img src="${ctx}/static/images/14.png" tppabs="${ctx}/static/images/15.png"></div>
         </ul>
     </div>
 </div>
