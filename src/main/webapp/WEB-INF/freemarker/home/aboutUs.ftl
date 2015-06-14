@@ -43,7 +43,7 @@
                 <h3><img src="${ctx}/static/images/about4.jpg" tppabs="${ctx}/static/images/about4.jpg"></h3>
             </div>
             <div class="my_right"> 　
-                <p style=" margin-top:46px; font-size:14px; color:#333; line-height:24px;">
+                <p style=" margin-top:46px; font-size:14px; color:#333; line-height:24px;margin-left:15px">
                     我公司将一直恪守"诚信、稳健、自律、发展"的宗旨，坚持"公开、公平、公正、诚实信用"的经营方针，以现代企业制度规范公司运作和经营行为，为各方当事人提供完善、专业、高效的拍卖服务。 </p>
             </div>
         </ul>
