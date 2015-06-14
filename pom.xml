@@ -271,7 +271,7 @@
 
 	</dependencies>
 	<build>
-		<finalName>lingma</finalName>
+		<finalName>auction</finalName>
 		<resources>
 			<resource>
 				<filtering>true</filtering>
