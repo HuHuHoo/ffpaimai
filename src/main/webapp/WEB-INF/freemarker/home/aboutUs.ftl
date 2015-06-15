@@ -77,7 +77,9 @@
                     src="${ctx}/static/images/12.png" tppabs="${ctx}/static/images/12.png"><img
                     src="${ctx}/static/images/13.png" tppabs="${ctx}/static/images/13.png">
                 <img src="${ctx}/static/images/14.png" tppabs="${ctx}/static/images/14.png">
-                <img src="${ctx}/static/images/14.png" tppabs="${ctx}/static/images/15.png"></div>
+                <img src="${ctx}/static/images/14.png" tppabs="${ctx}/static/images/15.png">
+                <img src="${ctx}/static/images/14.png" tppabs="${ctx}/static/images/16.png">
+            </div>
         </ul>
     </div>
 </div>
