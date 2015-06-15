@@ -51,7 +51,7 @@
         <ul id="locD" class="loc">
             <div class="official">
                 <h2>办公环境</h2>
-                <img src="${ctx}/static/images/b1.jpg" tppabs="${ctx}/static/images/b1.jpg">
+                <img src="${ctx}/static/images/b2.jpg" tppabs="${ctx}/static/images/b1.jpg">
                 <img src="${ctx}/static/images/b2.jpg" tppabs="${ctx}/static/images/b2.jpg">
                 <img src="${ctx}/static/images/b3.jpg" tppabs="${ctx}/static/images/b3.jpg">
                 <img src="${ctx}/static/images/b4.jpg" tppabs="${ctx}/static/images/b4.jpg">
